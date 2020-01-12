@@ -2,7 +2,7 @@
 <html>
 <head>
     <!--定时转到其他页面 -->
-    <meta http-equiv="refresh" content="19;url=birthdayIndex.html">
+    <meta http-equiv="refresh" content="32;url=birthdayIndex.html">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>生日快乐！</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -90,7 +90,7 @@
 <body>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #4670cc;">
-    生日快乐
+    梦幻开始
     <span id="span_dt_dt"></span>
 </p>
 
@@ -100,7 +100,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("ARE|YOU|READY|倒计时|开始！|#countdown 3|#rectangle 15x15|#circle 12");
+            S.UI.simulate("嘿嘿嘿|惊喜不|提前暴露的|我|怎么可能|会|再用||ARE|YOU|READY|倒计时|开始！|#countdown 3|#rectangle 15x15|#circle 12");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -513,8 +513,6 @@
     S.init();
 </script>
 <!--//音乐可改-->
-<audio autoplay="autoplay" loop="loop">
-    <source src="http://m10.music.126.net/20180509183512/5ae461e9a42675d782840bf139b05c60/ymusic/e492/ea7a/6a27/8799d19e52d9bbe3ae15febb03d7efdb.mp3" type="audio/mpeg">
-</audio>
+<audio src="qianzou.mp3" id="music" autoplay="autoplay"></audio>
 </body>
 </html>
